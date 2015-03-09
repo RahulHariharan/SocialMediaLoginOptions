@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-composer/0.7.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="69bf5d59b95eb91b9d17ddb3f0725a4ff499197e">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-c6ecf905062b62761025668dfc5c045aa665aa11.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-5185772d7fc5a60072d215d9c20cc9016301e357.jar" />
+    </item>
+    <item
+        jar="/home/syscon/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/picasso-2.3.2-3c1f5a0a2e5ee9ab67fd825daa324ffbf50ca2cd.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c35a08281ed0057833e96eef95d274da211842ac.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-8ea420ed6305f0939671b288b7aa238d25f9ba75.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.cobalt/performance-metrics/0.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="39a316349636281051561b9abb23fdd6a2b17061">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-dbb829be60daf76ed01f4f52077fab7f2ed648aa.jar" />
+    </item>
+    <item
+        jar="/home/syscon/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/gson-2.2.4-2241b19eb2cc11b4ad5a390ab2ee09a935f57f95.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.6/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2fe368aa4368eb3df7a5dafaba01af4e7d0537bd">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-abcb399b6d5530ced14e522ec0d8333638491d90.jar" />
+    </item>
+    <item
+        jar="/home/syscon/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.2-927e8b9e2fcab3e2b59368baaa791294847c437d.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-31f9b8d74b29db4b7bef2e01103c96829e51dfc7.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.3.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4258a821d937d5064491b0a1e57fc4228d93b7be">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-9f4cf722ae46d1eb0a417ff694e9d6a5320f10ce.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-0439f895fe1560fade42a2fa2a36ca66409f9e1a.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter/1.3.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6c1e871558ab202d331ce4c42150607c95580438">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-d1ed045cdda5a3affa5f1deb61f7f3d1ed250ab6.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0a4af6a85230b990eb8690b696d2db9247338611">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-e55d0310b65138ed41509dabf9b543bea487472b.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.3.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b6d78e6b220579f1e542dc86e217bca45dd573cd">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/classes-6d027a2ca46cce3533bb4a7cd5dc49e1b0d84c4f.jar" />
+    </item>
+    <item
+        jar="/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c81b91ca177c0c257a3aa3a268b9b7c10b06a947.jar" />
+    </item>
+    <item
+        jar="/home/syscon/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.6.1/efb0a36546aa8857ab8df358b106c1817e03cbee/retrofit-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="efb0a36546aa8857ab8df358b106c1817e03cbee">
+        <dex dex="/home/syscon/Documents/FacebookTest/app/build/intermediates/pre-dexed/debug/retrofit-1.6.1-576c61b0a492e4151c8d3d03ce988d6fa2098bce.jar" />
+    </item>
+
+</items>

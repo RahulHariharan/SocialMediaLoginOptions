@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.6/res/values-nl/values.xml -->
+    <eat-comment/>
+    <plurals name="tw__time_hours">
+        <item quantity="one">1u</item>
+        <item quantity="other">%du</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1m</item>
+        <item quantity="other">%dm</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1s</item>
+        <item quantity="other">%ds</item>
+    </plurals>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-nl/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Delen met %s"</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-nl/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Er is een update van de Android Wear-app vereist voor een bepaalde app."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Deze app wordt niet uitgevoerd, tenzij u de Android Wear-app bijwerkt."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Android Wear bijwerken"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Google Play-services inschak."</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Deze app werkt niet, tenzij u Google Play-services inschakelt."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Aangevraagd door <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Google Play-services ophalen"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw telefoon."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw tablet."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Google Play-services ophalen"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Het gespecificeerde account bestaat niet op dit apparaat. Kies een ander account."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Ongeldig account"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Google Play-services moet zijn ingeschakeld voor een app."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Er is een gegevensverbinding nodig om verbinding te kunnen maken met Google Play-services."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Netwerkfout"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Google Play-services moet zijn geïnstalleerd voor een app."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Google Play-services moet worden geüpdatet voor een app."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Fout met Google Play-services"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Onbekend probleem met Google Play-services."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Google Play-services, dat vereist is voor een aantal van uw applicaties, wordt niet ondersteund door uw apparaat. Neem contact op met de fabrikant voor ondersteuning."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Google Play-services"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Updaten"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Deze app kan niet worden uitgevoerd, tenzij u Google Play-services updatet."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Google Play-services updaten"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Openen op telefoon"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Inloggen"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Inloggen met Google"</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.3.0/res/values-nl/values.xml -->
+    <eat-comment/>
+    <string name="dgts__cancel">Annuleren</string>
+    <string name="dgts__communication_error">Communicatiefout </string>
+    <string name="dgts__confirmation_code">Bevestigingscode</string>
+    <string name="dgts__confirmation_edit_hint">Bevestigingscode invoeren</string>
+    <string name="dgts__confirmation_error">We konden je telefoonnummer niet bevestigen.</string>
+    <string name="dgts__confirmation_error_alternative">Sorry, we hebben wat problemen met je een bevestigingscode te sturen. Probeer hieronder in te loggen.</string>
+    <string name="dgts__confirmation_expired">De code is verlopen. Verstuur de bevestigingscode opnieuw.</string>
+    <string name="dgts__confirmation_send_text">Bevestigingscode versturen</string>
+    <string name="dgts__confirmation_sending_text">Bevestigingscode versturen…</string>
+    <string name="dgts__confirmation_sent_text">Bevestigingscode verzonden</string>
+    <string name="dgts__confirmation_sms">Bevestigingscode: %1$s. Voer deze code in in %2$s</string>
+    <string name="dgts__create_account_text">Registreren</string>
+    <string name="dgts__creating_account_text">Account aanmaken…</string>
+    <string name="dgts__dismiss">Verbergen</string>
+    <string name="dgts__find_your_friends">Je vrienden zoeken</string>
+    <string name="dgts__image_header_description">Afbeeldingskoptekst voor inloggen</string>
+    <string name="dgts__login_digits_text">Mijn telefoonnummer gebruiken</string>
+    <string name="dgts__network_error">Controleer je internetverbinding en probeer het opnieuw.</string>
+    <string name="dgts__not_now">Nu niet</string>
+    <string name="dgts__okay">Oké</string>
+    <string name="dgts__phone_number_edit_hint">Je telefoonnummer</string>
+    <string name="dgts__phone_number_text">Vul je telefoonnummer in</string>
+    <string name="dgts__resend">Opnieuw verzenden</string>
+    <string name="dgts__resend_confirmation_text">Bevestiging opnieuw verzenden</string>
+    <string name="dgts__sign_in">Inloggen</string>
+    <string name="dgts__sign_in_error">We kunnen je op dit moment niet inloggen op Twitter. Probeer het later opnieuw.</string>
+    <string name="dgts__sign_in_twitter">Inloggen met Twitter</string>
+    <string name="dgts__signing_in">Inloggen…</string>
+    <string name="dgts__success_desc">Gelukt-pictogram</string>
+    <string name="dgts__terms_text">Wanneer je hierboven op \'Bevestigingscode versturen\' tikt, stuurt         <u>Digits by Twitter        </u> je een sms-bericht om je telefoonnummer te bevestigen.</string>
+    <string name="dgts__terms_text_create">Wanneer je hierboven op \'Account maken\' tikt, ga je akkoord met de      \
+   <u>algemene voorwaarden</u>, het \
+<u>privacybeleid</u> en het <u>cookiebeleid</u> \
+van Digits by Twitter en ga je akkoord met het feit dat andere \
+gebruikers van deze app je kunnen vinden aan de hand van je telefoonnummer \
+en/of e-mailadres.</string>
+    <string name="dgts__terms_text_create_app">Wanneer je hierboven op \'Account maken\' tikt, ga je akkoord met de         <u>algemene voorwaarden</u>, het <u>privacybeleid</u> en het <u>cookiebeleid</u> van Digits by Twitter en ga je akkoord met het feit dat andere gebruikers van %1$s je kunnen vinden aan de hand van je telefoonnummer en/of e-mailadres.</string>
+    <string name="dgts__try_again">Probeer het opnieuw</string>
+    <string name="dgts__try_again_confirmation">Controleer je code en probeer het opnieuw.</string>
+    <string name="dgts__try_again_phone_number">Controleer je telefoonnummer en probeer het opnieuw.</string>
+    <string name="dgts__try_another_phone">Probeer een ander telefoonnummer</string>
+    <string name="dgts__upload_contacts">We gebruiken Digits by Twitter om meer vrienden van je te zoeken die deze app gebruiken. Wanneer je op Oké tikt, wordt je adresboek naar Digits by Twitter geüpload en kunnen andere gebruikers van onze app jou vinden.</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.6/res/values-nl/values.xml -->
+    <eat-comment/>
+    <string name="tw__loading_tweet">Tweet laden…</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/twitter-core/1.3.1/res/values-nl/values.xml -->
+    <eat-comment/>
+    <string name="tw__login_btn_txt">Inloggen met Twitter</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.6/res/values-nl/values.xml -->
+    <eat-comment/>
+    <string name="tw__relative_date_format_long">d-M-y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__share_content_format">Bekijk de tweet van \@%1$s: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">Tweet van %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Tweet delen</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+</resources>

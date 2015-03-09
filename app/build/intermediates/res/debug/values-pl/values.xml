@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.6/res/values-pl/values.xml -->
+    <eat-comment/>
+    <plurals name="tw__time_hours">
+        <item quantity="one">1 godz.</item>
+        <item quantity="other">%d godz.</item>
+    </plurals>
+    <plurals name="tw__time_mins">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="tw__time_secs">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-pl/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Przejdź do strony głównej"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Przejdź wyżej"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Więcej opcji"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gotowe"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Zobacz wszystkie"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Wybierz aplikację"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Wyczyść zapytanie"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Wyszukiwane hasło"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Szukaj"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Wyślij zapytanie"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Wyszukiwanie głosowe"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Udostępnij dla"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Udostępnij dla %s"</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values-pl/common_strings.xml -->
+    <eat-comment/>
+    <string msgid="473679118463211576" name="common_android_wear_notification_needs_update_text">"Aplikacja wymaga aktualizacji do Android Wear."</string>
+    <string msgid="3046420540094071256" name="common_android_wear_update_text">"Ta aplikacja nie będzie działać, jeśli nie zaktualizujesz aplikacji Google Wear."</string>
+    <string msgid="1366439133145190222" name="common_android_wear_update_title">"Zaktualizuj Android Wear"</string>
+    <string msgid="4181637455539816337" name="common_google_play_services_enable_button">"Włącz Usługi Google Play"</string>
+    <string msgid="7627896071867667758" name="common_google_play_services_enable_text">"Ta aplikacja nie będzie działać, jeśli nie włączysz Usług Google Play."</string>
+    <string msgid="529078775174559253" name="common_google_play_services_enable_title">"Włącz Usługi Google Play"</string>
+    <string msgid="2443362625939284971" name="common_google_play_services_error_notification_requested_by_msg">"Żądanie z aplikacji <ns1:g id="APP_NAME">%1$s</ns1:g>"</string>
+    <string msgid="8515591849428043265" name="common_google_play_services_install_button">"Pobierz Usługi Google Play"</string>
+    <string msgid="8685301130651051380" name="common_google_play_services_install_text_phone">"Ta aplikacja nie będzie działać bez Usług Google Play, których nie masz na telefonie."</string>
+    <string msgid="1589957570365247855" name="common_google_play_services_install_text_tablet">"Ta aplikacja nie będzie działać bez Usług Google Play, których nie masz na tablecie."</string>
+    <string msgid="26645092511305524" name="common_google_play_services_install_title">"Pobierz Usługi Google Play"</string>
+    <string msgid="4983316348021735578" name="common_google_play_services_invalid_account_text">"Podanego konta nie ma na tym urządzeniu. Wybierz inne konto."</string>
+    <string msgid="1066672360770936753" name="common_google_play_services_invalid_account_title">"Nieprawidłowe konto"</string>
+    <string msgid="2583358409598976717" name="common_google_play_services_needs_enabling_title">"Aplikacja wymaga włączenia Usług Google Play."</string>
+    <string msgid="9038847255613537209" name="common_google_play_services_network_error_text">"Korzystanie z usług Google Play wymaga połączenia z internetem."</string>
+    <string msgid="3827284619958211114" name="common_google_play_services_network_error_title">"Błąd sieci"</string>
+    <string msgid="8120534356798772974" name="common_google_play_services_notification_needs_installation_title">"Aplikacja wymaga zainstalowania Usług Google Play."</string>
+    <string msgid="1388129345631079938" name="common_google_play_services_notification_needs_update_title">"Aplikacja wymaga zaktualizowania Usług Google Play."</string>
+    <string msgid="1852570676146674985" name="common_google_play_services_notification_ticker">"Błąd Usług Google Play"</string>
+    <string msgid="4762332809710093730" name="common_google_play_services_unknown_issue">"Nieznany problem z Usługami Google Play."</string>
+    <string msgid="3542578567569488671" name="common_google_play_services_unsupported_text">"Usługi Google Play, od których zależy działanie niektórych aplikacji, nie są obsługiwane na Twoim urządzeniu. Skontaktuj się z producentem, by uzyskać pomoc."</string>
+    <string msgid="6334768798839376943" name="common_google_play_services_unsupported_title">"Usługi Google Play"</string>
+    <string msgid="8932944190611227642" name="common_google_play_services_update_button">"Aktualizuj"</string>
+    <string msgid="448354684997260580" name="common_google_play_services_update_text">"Ta aplikacja nie będzie działać, jeśli nie zaktualizujesz Usług Google Play."</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">"Aktualizuj Usługi Google Play"</string>
+    <string msgid="411506735369601515" name="common_open_on_phone">"Otwórz na telefonie"</string>
+    <string msgid="9071884888741449141" name="common_signin_button_text">"Zaloguj się"</string>
+    <string msgid="2429381841831957106" name="common_signin_button_text_long">"Zaloguj się przez Google"</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.digits.sdk.android/digits/1.3.0/res/values-pl/values.xml -->
+    <eat-comment/>
+    <string name="dgts__cancel">Anuluj</string>
+    <string name="dgts__communication_error">Błąd połączenia</string>
+    <string name="dgts__confirmation_code">Kod potwierdzenia</string>
+    <string name="dgts__confirmation_edit_hint">Wpisz kod potwierdzenia</string>
+    <string name="dgts__confirmation_error">Nie udało nam się potwierdzić Twojego numeru telefonu</string>
+    <string name="dgts__confirmation_error_alternative">Mamy problem z wysłaniem Ci kodu potwierdzenia. Spróbuj zalogować się poniżej.</string>
+    <string name="dgts__confirmation_expired">Ten kod jest już nieważny. Poproś o nowy kod potwierdzający.</string>
+    <string name="dgts__confirmation_send_text">Wyślij kod potwierdzenia</string>
+    <string name="dgts__confirmation_sending_text">Wysyłanie kodu potwierdzenia</string>
+    <string name="dgts__confirmation_sent_text">Wysłany kod potwierdzenia</string>
+    <string name="dgts__confirmation_sms">Kod potwierdzenia: %1$s. Wpisz ten kod w ciągu %2$s</string>
+    <string name="dgts__create_account_text">Utwórz konto</string>
+    <string name="dgts__creating_account_text">Tworzenie konta</string>
+    <string name="dgts__dismiss">Odrzuć</string>
+    <string name="dgts__find_your_friends">Znajdź znajomych</string>
+    <string name="dgts__image_header_description">Nagłówek obrazu logowania</string>
+    <string name="dgts__login_digits_text">Użyj mojego numeru telefonu</string>
+    <string name="dgts__network_error">Sprawdź sieć i spróbuj ponownie.</string>
+    <string name="dgts__not_now">Nie teraz</string>
+    <string name="dgts__okay">OK</string>
+    <string name="dgts__phone_number_edit_hint">Twój numer</string>
+    <string name="dgts__phone_number_text">Wpisz swój numer telefonu</string>
+    <string name="dgts__resend">Wyślij ponownie</string>
+    <string name="dgts__resend_confirmation_text">Wyślij ponownie kod potwierdzenia</string>
+    <string name="dgts__sign_in">Zaloguj się</string>
+    <string name="dgts__sign_in_error">Obecnie nie możesz zalogować się na Tweeterze. Spróbuj ponownie później.</string>
+    <string name="dgts__sign_in_twitter">Zaloguj się, używając danych logowania z Twittera</string>
+    <string name="dgts__signing_in">Logowanie</string>
+    <string name="dgts__success_desc">Ikona sukcesu</string>
+    <string name="dgts__terms_text">Stuknij przycisk „Wyślij kod potwierdzenia” powyżej, a otrzymasz SMS z usługi <u>Digits zarządzanej przez Twittera</u>, za pomocą którego potwierdzimy Twój numer telefonu.</string>
+    <string name="dgts__terms_text_create">Stuknij przycisk „Utwórz konto” powyżej, aby zaakceptować <u>zasady użytkowania</u>, <u>politykę prywatności</u> i <u>politykę ciasteczek</u> usługi Digits zarządzanej przez Twittera oraz to, że inni użytkownicy tej aplikacji mogą rozpoznać Cię po numerze telefonu lub adresie e-mail.</string>
+    <string name="dgts__terms_text_create_app">Stuknij przycisk „Utwórz konto” powyżej, aby zaakceptować <u>zasady \
+użytkowania</u>, <u>politykę prywatności</u> i <u>politykę ciasteczek</u> usługi Digits \
+zarządzanej przez Twittera oraz to, że inni użytkownicy aplikacji %1$s \
+mogą rozpoznać Cię po numerze telefonu lub adresie e-mail.</string>
+    <string name="dgts__try_again">Spróbuj ponownie</string>
+    <string name="dgts__try_again_confirmation">Sprawdź kod i spróbuj ponownie.</string>
+    <string name="dgts__try_again_phone_number">Sprawdź numer i spróbuj ponownie.</string>
+    <string name="dgts__try_another_phone">Wpisz inny numer telefonu</string>
+    <string name="dgts__upload_contacts">Za pomocą usługi Digits zarządzanej przez Twittera szukamy Twoich znajomych, którzy korzystają z tej aplikacji. Stuknij OK, a prześlemy Twoją książkę adresową do usługi Digits zarządzanej przez Twittera i sprawimy, że inni użytkownicy naszej aplikacji będą mogli Cię rozpoznać.</string>
+    <!-- From: file:/home/syscon/Documents/FacebookTest/app/build/intermediates/exploded-aar/com.twitter.sdk.android/tweet-ui/1.0.6/res/values-pl/values.xml -->
+    <eat-comment/>
+    <string name="tw__loading_tweet">Wczytywanie tweeta</string>
+    <string name="tw__relative_date_format_long">d.MM.y</string>
+    <string name="tw__relative_date_format_short">d MMM</string>
+    <string name="tw__share_content_format">Zobacz tweet od \@%1$s\: https://twitter.com/%1$s/status/%2$s</string>
+    <string name="tw__share_subject_format">Tweet od użytkownika %1$s (\@%2$s)</string>
+    <string name="tw__share_tweet">Udostępnij tweet</string>
+    <string name="tw__tweet_content_description">%1$s. %2$s. %3$s.</string>
+</resources>

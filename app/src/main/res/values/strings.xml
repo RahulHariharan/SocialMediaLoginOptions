@@ -1,0 +1,9 @@
+<resources>
+    <string name="description_placeholder">Description placeholder</string>
+    <string name="welcome">Welcome to this new activity</string>
+    <string name="facebook_app_id">1559173941018846</string>
+    <string name="app_name">FacebookTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>
