@@ -19,6 +19,8 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/authButton"/>
 
+
+
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
         android:layout_width="250dp"

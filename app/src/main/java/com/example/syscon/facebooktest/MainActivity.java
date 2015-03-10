@@ -126,6 +126,11 @@ public class MainActivity extends ActionBarActivity{
 
                         jsonException.printStackTrace();
                     }
+
+
+                    intent.putExtra("StringifiedData",stringifiedJSON);
+
+
                     startActivity(intent);
                 }
             }
