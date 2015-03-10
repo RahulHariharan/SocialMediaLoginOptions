@@ -9,7 +9,7 @@
         android:id="@+id/authButton"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerInParent="true"/>
 
     <com.twitter.sdk.android.core.identity.TwitterLoginButton
         android:id="@+id/twitter_login_button"

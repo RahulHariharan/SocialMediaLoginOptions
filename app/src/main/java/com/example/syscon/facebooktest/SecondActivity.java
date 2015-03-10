@@ -1,17 +1,26 @@
 package com.example.syscon.facebooktest;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class SecondActivity extends ActionBarActivity {
+public class SecondActivity extends FragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        FragmentManager manager = getSupportFragmentManager();
+        Fragment fragment = manager.findFragmentById(R.id.userSettingsFragment);
+        FragmentTransaction transaction = manager.beginTransaction();
+        transaction.hide(fragment);
+        transaction.commit();
     }
 
     @Override
@@ -30,6 +39,12 @@ public class SecondActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            FragmentManager manager = getSupportFragmentManager();
+            Fragment fragment = manager.findFragmentById(R.id.userSettingsFragment);
+            FragmentTransaction transaction = manager.beginTransaction();
+            transaction.show(fragment);
+            transaction.commit();
+
             return true;
         }
 

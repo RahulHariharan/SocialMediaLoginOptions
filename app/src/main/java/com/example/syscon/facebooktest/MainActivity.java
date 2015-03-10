@@ -1,6 +1,7 @@
 package com.example.syscon.facebooktest;
 
 import android.content.IntentSender;
+import android.hardware.usb.UsbInterface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.view.MenuItem;
 import com.facebook.AppEventsLogger;
 import com.facebook.Session;
 import com.facebook.SessionState;
+import com.facebook.UiLifecycleHelper;
 import com.facebook.model.GraphUser;
 import com.facebook.widget.LoginButton;
 
@@ -35,6 +37,9 @@ import com.google.android.gms.common.GooglePlayServicesClient.ConnectionCallback
 import com.google.android.gms.common.GooglePlayServicesClient.OnConnectionFailedListener;
 import com.google.android.*;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 
 public class MainActivity extends ActionBarActivity{
 
@@ -58,12 +63,35 @@ public class MainActivity extends ActionBarActivity{
 
     private ConnectionResult mConnectionResult;
 
+    private UiLifecycleHelper uiHelper;
+    private GraphUser user;
+
+    private Session.StatusCallback callback = new Session.StatusCallback(){
+
+        @Override
+        public void call(Session session, SessionState sessionState, Exception e) {
+
+            if(session != null)
+                Log.v("Session",session.toString());
+            else if(sessionState != null)
+                Log.v("Session state", sessionState.toString());
+            if(e != null)
+                e.printStackTrace();
+        }
+    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         TwitterAuthConfig authConfig = new TwitterAuthConfig(TWITTER_KEY, TWITTER_SECRET);
         Fabric.with(this, new Twitter(authConfig));
         setContentView(R.layout.activity_main);
+
+        Log.v("on create","on create method");
+
+        uiHelper = new UiLifecycleHelper(this,callback);
+        uiHelper.onCreate(savedInstanceState);
 
         LoginButton authButton = (LoginButton) findViewById(R.id.authButton);
         authButton.setReadPermissions(Arrays.asList("public_profile"));
@@ -73,11 +101,33 @@ public class MainActivity extends ActionBarActivity{
             @Override
             public void onUserInfoFetched(GraphUser graphUser) {
 
-                Log.v("Session Build", "Session build");
+                Session session = Session.getActiveSession();
 
-                Intent intent = new Intent(getApplicationContext(),SecondActivity.class);
-                startActivity(intent);
+                if(session != null)
+                    Log.v("MySession", session.toString());
 
+                if(graphUser != null) {
+                    MainActivity.this.user = graphUser;
+
+                    Log.v("Session Build", graphUser.toString());
+                    Log.v("Graph user",graphUser.toString());
+
+                    Intent intent = new Intent(getApplicationContext(),SecondActivity.class);
+
+                    JSONObject jsonObject = new JSONObject(graphUser.asMap());
+                    Log.v("JSONObject",jsonObject.toString());
+
+                    String stringifiedJSON = jsonObject.toString();
+                    try {
+                        JSONObject reconstructedObject = new JSONObject(stringifiedJSON);
+                        Log.v("Reconstructed JSON",reconstructedObject.toString());
+                    }
+                    catch(JSONException jsonException){
+
+                        jsonException.printStackTrace();
+                    }
+                    startActivity(intent);
+                }
             }
         });
 
@@ -96,7 +146,7 @@ public class MainActivity extends ActionBarActivity{
             }
         });*/
 
-        this.mGoogleApiClient = new GoogleApiClient.Builder(getApplicationContext())
+        /*this.mGoogleApiClient = new GoogleApiClient.Builder(getApplicationContext())
                                     .addApi(Plus.API)
                                     .addScope(Plus.SCOPE_PLUS_LOGIN)
                                     .addConnectionCallbacks(new GoogleApiClient.ConnectionCallbacks(){
@@ -141,7 +191,7 @@ public class MainActivity extends ActionBarActivity{
                                             }
                                         }
                                     })
-                                    .build();
+                                    .build();*/
 
         findViewById(R.id.sign_in_button).setOnClickListener(new View.OnClickListener(){
 
@@ -184,7 +234,7 @@ public class MainActivity extends ActionBarActivity{
     @Override
     protected void onResume() {
         super.onResume();
-
+        uiHelper.onResume();
         // Logs 'install' and 'app activate' App Events.
         AppEventsLogger.activateApp(this);
     }
@@ -192,7 +242,7 @@ public class MainActivity extends ActionBarActivity{
     @Override
     protected void onPause(){
         super.onPause();
-
+        uiHelper.onPause();
         // Logs an app deactivation event
         AppEventsLogger.deactivateApp(this);
 
@@ -206,6 +256,7 @@ public class MainActivity extends ActionBarActivity{
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
+        uiHelper.onActivityResult(requestCode,resultCode,data);
         // Pass the activity result to the login button.
         //loginButton.onActivityResult(requestCode, resultCode,data);
 
@@ -229,12 +280,10 @@ public class MainActivity extends ActionBarActivity{
                 mGoogleApiClient.connect();
             }
         }
-
-
     }
 
-
-    protected void onStart() {
+    /*********************** FUNCTIONS NEED TO BE UNCOMMENTED FOR USE **********************/
+    /*protected void onStart() {
         super.onStart();
         mGoogleApiClient.connect();
     }
@@ -245,7 +294,7 @@ public class MainActivity extends ActionBarActivity{
         if (mGoogleApiClient.isConnected()) {
             mGoogleApiClient.disconnect();
         }
-    }
+    }*/
 
     /* A helper method to resolve the current ConnectionResult error. */
     private void resolveSignInError() {
@@ -262,7 +311,5 @@ public class MainActivity extends ActionBarActivity{
             }
         }
     }
-
-
 
 }
